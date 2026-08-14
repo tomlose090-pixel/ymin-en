@@ -555,7 +555,7 @@
       $('rankBacklinks').style.display=activeModule===0&&activePage===1?'grid':'none';
       $('rankTableSection').style.display=activeModule===0&&activePage===1?'block':'none';
       $('visitorAnalysisPage').style.display=activeModule===0&&activePage===2?'block':'none';
-      const visitorEmailMetric=document.querySelector('#visitorAnalysisPage .stat-kpi:nth-child(4) span');if(visitorEmailMetric)visitorEmailMetric.textContent='新访客邮箱注册';
+      const visitorEmailMetric=document.querySelector('#visitorAnalysisPage .stat-kpi:nth-child(4) span');if(visitorEmailMetric)visitorEmailMetric.textContent='新访客邮箱注册';const visitorEmailValue=document.querySelector('#visitorAnalysisPage .stat-kpi:nth-child(4) strong');if(visitorEmailValue)visitorEmailValue.innerHTML='63<small>人</small>';
       $('contentRankingPage').style.display=activeModule===0&&activePage===3?'block':'none';
       $('cadManager').style.display=activeModule===4&&activePage===0?'block':'none';
       if($('designToolEmptyManager'))$('designToolEmptyManager').style.display=activeModule===4&&activePage>0?'block':'none';
