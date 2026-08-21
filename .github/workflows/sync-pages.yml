@@ -26,6 +26,8 @@ jobs:
           mkdir -p _site
           cp index.html application-data.js jszip.min.js cad-example.step _site/
           cp "上传cad文件产品规格示例文件.xlsx" _site/
+          cp "商城匹配批量导入示例.xlsx" _site/
+          cp -R outputs _site/
           touch _site/.nojekyll
 
       - name: Update gh-pages branch

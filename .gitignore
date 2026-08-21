@@ -36,5 +36,14 @@ yarn-error.log*
 
 /dist/
 /.wrangler/
-/outputs/
+/outputs/*
+!/outputs/ai-keywords/
+!/outputs/cross-reference/
+/outputs/ai-keywords/*
+!/outputs/ai-keywords/*.xlsx
+/outputs/cross-reference/*
+!/outputs/cross-reference/*.xlsx
 /work/
+/.openai/package-stage/
+/.openai/site-package.tar.gz
+/.tmp-cross-reference-template/
